@@ -43,5 +43,5 @@ node ingest-job.js "https://indeed.com/viewjob?jk=12345" --status="Interview" --
 
 📜 Output
 
-{ action: 'created', id: 'abc123' }
-{ action: 'updated', id: 'abc123' }
+    { action: 'created', id: 'abc123' }
+    { action: 'updated', id: 'abc123' }
