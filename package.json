@@ -1,0 +1,20 @@
+{
+  "name": "internship-tracker",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Internship job tracking with Notion integration",
+  "main": "ingest-job.js",
+  "scripts": {
+    "start": "node ingest-job.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.3",
+    "axios": "^1.5.0",
+    "cheerio": "^1.0.0-rc.10",
+    "dayjs": "^1.11.9",
+    "dotenv": "^17.2.2"
+  }
+}
